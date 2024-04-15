@@ -23,7 +23,7 @@ const main = {argc, argv
 }
 ```
 
-__note: the example might change__
+__note: the syntax may change__
 
 ## Planned "big" features
 
