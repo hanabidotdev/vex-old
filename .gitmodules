@@ -1,0 +1,3 @@
+[submodule "lib/Cuik"]
+	path = lib/Cuik
+	url = https://github.com/RealNeGate/Cuik.git

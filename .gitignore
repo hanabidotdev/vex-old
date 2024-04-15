@@ -1,0 +1,6 @@
+*.o
+*.elf
+*.exe
+*.obj
+/scripts/
+/vex
