@@ -4,23 +4,37 @@ A language designed to be minimal, expressive, elegant.
 
 ## Example
 
-```
+```rb
+--
 -- simple example to showcase *some* features
-with std\io
+--
 
-const main = {argc, argv
-    io\println("Hello, World!");
+-- import the IO module
+require std'io
+-- libc bindings
+require libc 
 
-    for arg in argv {
-        io\println(arg);
-    };
+const Name = "vex"
 
-    if argc >= 69 {
-        return 420;
-    };
+def main(argc, argv)
+    io'println("Hello, World!")
 
-    return 0;
-}
+    my_var = "This is my variable, dont touch it!"
+
+    libc'printf("My name is %s", Name)
+
+    my_var = "I touched it ;D"
+
+    for arg in argv
+        io'println(arg)
+    end
+
+    if argc >= 69 
+        return 420
+    end
+
+    return 0
+end
 ```
 
 __note: the syntax may change__

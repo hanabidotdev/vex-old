@@ -4,3 +4,12 @@
 *.obj
 /scripts/
 /vex
+
+
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/editor.xml
+/.idea/modules.xml
+/.idea/codeStyles/Project.xml
+/.idea/vcs.xml
+/.idea/vex.iml
