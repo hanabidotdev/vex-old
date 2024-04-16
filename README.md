@@ -10,23 +10,23 @@ A language designed to be minimal, expressive, elegant.
 --
 
 -- import the IO module
-require std'io
+require "std::io"
 -- libc bindings
-require libc 
+require "libc" 
 
 const Name = "vex"
 
 def main(argc, argv)
-    io'println("Hello, World!")
+    io.println("Hello, World!")
 
     my_var = "This is my variable, dont touch it!"
 
-    libc'printf("My name is %s", Name)
+    libc.printf("My name is %s", Name)
 
     my_var = "I touched it ;D"
 
     for arg in argv
-        io'println(arg)
+        io.println(arg)
     end
 
     if argc >= 69 
