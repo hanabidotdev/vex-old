@@ -5,13 +5,13 @@ A language designed to be minimal, expressive, elegant.
 ## Example
 
 ```rb
---
--- simple example to showcase *some* features
---
+#
+# simple example to showcase *some* features
+#
 
--- import the IO module
+# import the IO module
 require "std::io"
--- libc bindings
+# libc bindings
 require "libc" 
 
 const Name = "vex"

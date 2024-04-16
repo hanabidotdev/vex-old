@@ -19,7 +19,6 @@ typedef enum
   SEMICOLON,
   SLASH,
   STAR,
-  SINGlE_BANG,
 
   // One or two character tokens.
   BANG,
@@ -41,18 +40,17 @@ typedef enum
   AND,
   ELSE,
   FALSE,
-  FN,
+  DEF,
   FOR,
   IF,
   OR,
-  PRINT,
   RETURN,
   TRUE,
-  LET,
   WHILE,
   END,
   THEN,
   AS,
+  IS,
 
   // Classic EOF
   END_OF_FILE
@@ -78,7 +76,7 @@ void
 vex_lex_error (int line, char *where, char *message)
 {
   printf ("Error %s: %s \n", where, message);
-  printf ("at line %i\n", line);
+  printf ("===> at line %i\n", line);
   vex_lex_has_error = true;
 }
 
