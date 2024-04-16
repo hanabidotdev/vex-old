@@ -14,6 +14,7 @@ typedef enum
   RIGHT_BRACE,
   COMMA,
   DOT,
+  CASH,
   MINUS,
   PLUS,
   SEMICOLON,

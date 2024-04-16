@@ -4,5 +4,6 @@
 int
 main ()
 {
+  vex_lex_error(69, "", "your mom is an error");
   return 0;
 }
